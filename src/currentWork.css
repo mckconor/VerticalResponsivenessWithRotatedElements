@@ -1,0 +1,73 @@
+.vertical-row {
+  height: 100%;
+}
+.vertical-row.row {
+  padding-bottom: 2px;
+  padding-top: 12px;
+}
+.vertical-table-header {
+  position: absolute;
+  transform: none;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 30px;
+}
+.vertical-table-header span,
+.vertical-table-header input,
+.vertical-table-header img {
+  display: inline-block;
+}
+
+.vertical-table-header input {
+  transform: rotate(0deg);
+  position: relative;
+  left: 45%;
+  padding-top: 10px;
+}
+.vertical-table-header img {
+  position: absolute;
+  bottom: 20px;
+  left: 45%;
+}
+.vertical-table-header span {
+  max-width: 150px;
+}
+
+.vertical-contents {
+  transform: rotate(-90deg);
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+}
+
+.vertical-row input {
+  margin: 10px 0;
+  width: 100%;
+}
+.vertical-row .document-image-holder {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 6px;
+}
+
+.vertical-document-title {
+  position: absolute;
+  inset: 0;
+}
+
+.vertical-doc-name-image {
+  position: absolute;
+  bottom: 0;
+  top: 32px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+}
+
+.infinite.header {
+  height: 25%; /* CHANGE ME! */
+}
